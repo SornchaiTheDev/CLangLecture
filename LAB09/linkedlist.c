@@ -1,3 +1,23 @@
+/**
+ * หลักการ Linked list
+ * สร้าง node ใหม่
+ * NodePtr temp = (NodePtr)malloc(sizeof(Node));
+ * temp->value = 10;
+ *
+ * Node สุดท้าย
+ * ___->next = NULL;
+ *
+ * เปลี่ยนจุดเริ่มต้นของ List
+ * startPtr = temp;
+ *
+ * เป็น node สุดท้ายหรือป่าว
+ * startPtr = _____;
+ *
+ * List ว่างหรือป่าว
+ * if (startPtr == NULL)
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 
